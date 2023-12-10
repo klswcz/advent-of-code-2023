@@ -30,5 +30,3 @@ def get_part_numbers():
 
 engine_schematic = open("engine_schematic.txt", "r").read().splitlines()
 print(sum(get_part_numbers()))
-
-correct_result = 533775
